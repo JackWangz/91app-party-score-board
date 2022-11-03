@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <h1>91APP Score Board MOTHERFUCKER!!</h1>
+    <img alt="91APP" src="https://www.91app.com/wp-content/uploads/2017/10/91app-logo-1024.png" />
   </div>
 </template>
 

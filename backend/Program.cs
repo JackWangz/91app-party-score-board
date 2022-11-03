@@ -6,10 +6,9 @@ builder.Services.AddSpaStaticFiles(configuration =>
 });
 
 builder.Services.AddControllers();
-// builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-// db context
+//TODO: Add DBContext
 
 var app = builder.Build();
 
@@ -21,7 +20,5 @@ app.UseSpa(s =>
 {
     s.Options.SourcePath = "../app";
 });
-
-// app.MapGet("/", () => "Hello World!");
 
 app.Run();

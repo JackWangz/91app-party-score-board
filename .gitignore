@@ -27,3 +27,6 @@ pnpm-debug.log*
 bin/
 obj/
 dist/
+
+app/src/**/*.js
+app/src/**/*.js.map

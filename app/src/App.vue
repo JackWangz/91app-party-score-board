@@ -21,7 +21,7 @@ html, body {
 #main {
   background-image: url("../public/img/yu_gi_oh.jpeg");
   background-color: #cccccc;
-  height: 100%;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,17 +36,4 @@ html, body {
   text-align: center;
   color: #2c3e50;
 }
-/* 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-} */
 </style>
